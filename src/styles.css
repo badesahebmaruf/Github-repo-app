@@ -1,0 +1,127 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.repo-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  color: #060606ce;
+  margin: 0;
+  font-size: 24px;
+}
+
+.select-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.select-container label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.select-container select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.repo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.repo-list li {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.repo-list li:hover {
+  background-color: #f2f2f2;
+}
+
+.repo-info {
+  flex: 1;
+}
+
+.repo-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.repo-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.repo-stats {
+  display: flex;
+  align-items: center;
+}
+
+.stars,
+.issues {
+  margin: 0 10px;
+}
+
+.owner-info {
+  display: flex;
+  align-items: center;
+}
+
+.owner-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.owner-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
